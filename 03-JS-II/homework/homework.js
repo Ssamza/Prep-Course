@@ -28,7 +28,7 @@ function conection(status) {
   //Cuando el estado es igual a 1, el usuario está "Online"
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
-  //Devolver el estado de conexión de usuario en cada uno de los casos.7
+  //Devolver el estado de conexión de usuario en cada uno de los casos.
   if ( status === 1){
     return "Online";
   }else if
